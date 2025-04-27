@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Call API
         run: |
-          curl -X DELETE "https://online-employee-management-system.vercel.app/clear-attendance" \
+          curl -X DELETE "https://employee-management-system-backend-beryl.vercel.app//clear-attendance" \
           -H "authkey: ${{ secrets.AUTH_KEY }}"
         env:
           AUTH_KEY: ${{ secrets.AUTH_KEY }}
