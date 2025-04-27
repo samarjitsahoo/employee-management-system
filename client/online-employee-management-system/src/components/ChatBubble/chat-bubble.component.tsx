@@ -39,7 +39,7 @@ export default function ChatBubble() {
       {isChatOpen && (
         <div className="fixed bottom-24 right-6 w-96 h-[500px] bg-white shadow-lg rounded-lg border border-gray-300">
           <iframe
-            src="https://www.chatbase.co/chatbot-iframe/B_L0BHh6I-TlwIu_4Hj-r"
+            src="https://www.chatbase.co/chatbot-iframe/0SrknhihQFxT5qoBvS1ja"
             width="100%"
             height="100%"
           ></iframe>

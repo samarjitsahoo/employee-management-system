@@ -30,9 +30,7 @@ export default function Dashboard() {
     )
 
   useEffect(() => {
-    fetch(
-      "https://online-employee-management-system.onrender.com/top-employees"
-    )
+    fetch("https://employee-management-system-nfjs.onrender.com/top-employees")
       .then((res) => res.json())
       .then((data) => {
         if (data.length > 0) {
